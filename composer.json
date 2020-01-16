@@ -1,5 +1,5 @@
 {
-    "name": "laravelchetantwilio/twilio",
+    "name": "twilioMan/twilio",
     "description": "Twilio API for Laravel",
     "type": "library",
     "keywords": ["sms","laravel","twilio"],
