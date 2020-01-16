@@ -1,5 +1,5 @@
 <?php
-namespace LaravelChetanTwilio\Twilio\Provider;
+namespace LaravelChetanTwilio\LaravelTwilio\Provider;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;

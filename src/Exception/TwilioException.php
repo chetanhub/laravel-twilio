@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelChetanTwilio\Twilio\Exception;
+namespace LaravelChetanTwilio\LaravelTwilio\Exception;
 
 /**
  * Twilio - Exception throw 

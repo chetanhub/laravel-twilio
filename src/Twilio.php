@@ -1,8 +1,8 @@
 <?php
-namespace LaravelChetanTwilio\Twilio;
+namespace LaravelChetanTwilio\LaravelTwilio;
 
 use Twilio\Rest\Client;
-use LaravelChetanTwilio\Twilio\Exception\TwilioException;
+use LaravelChetanTwilio\LaravelTwilio\Exception\TwilioException;
 
 class Twilio
 {
@@ -33,8 +33,6 @@ class Twilio
      */
     public function __construct($sid, $token, $from)
     {
-        echo "HELLO";
-        exit('1');
         $this->sid = $sid;
         $this->token = $token;
         $this->from = $from;
