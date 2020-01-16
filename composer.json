@@ -1,0 +1,33 @@
+{
+    "name": "laravel/twilio",
+    "description": "Twilio API for Laravel",
+    "type": "library",
+    "keywords": ["sms","laravel","twilio"],
+    "authors": [
+        {
+            "name": "chetan",
+            "email": "chetandeep@singsys.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0",
+        "twilio/sdk":"5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelChetanTwilio\\Twilio\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelChetanTwilio\\Twilio\\Provider\\ServiceProvider"
+            ],
+            "aliases": {
+                "Twilio": "LaravelChetanTwilio\\Twilio\\Facade\\Facade"
+            }
+        }
+    }
+}
