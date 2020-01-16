@@ -2,7 +2,7 @@
 namespace LaravelChetanTwilio\LaravelTwilio\Provider;
 
 use Illuminate\Foundation\Application;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 /**
  * Twilio - ServicePrivider to support integration with Laravel framework 
@@ -12,7 +12,7 @@ use Illuminate\Support\ServiceProvider;
  * @author   chetandeep <chetandeep@singsys.com>
  */ 
 
-class ServiceProvider extends ServiceProvider
+class ServiceProvider extends LaravelServiceProvider
 {
     /**
      * @var \Illuminate\Support\ServiceProvider
