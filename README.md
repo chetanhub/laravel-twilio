@@ -2,9 +2,9 @@ laravel-twilio
 ===============
 Laravel Twillio API Integration
 
-[![Latest Stable Version](https://poser.pugx.org/aloha/twilio/v/stable.svg)](https://packagist.org/packages/twilioman/twilio)
-[![Latest Unstable Version](https://poser.pugx.org/aloha/twilio/v/unstable.svg)](https://packagist.org/packages/twilioman/twilio)
-[![License](https://poser.pugx.org/aloha/twilio/license.svg)](https://packagist.org/packages/twilioman/twilio)
+<!-- [![Latest Stable Version](https://poser.pugx.org/aloha/twilio/v/stable.svg)](https://packagist.org/packages/twilioman/twilio) -->
+[![Latest Unstable Version](https://poser.pugx.org/twilioman/twilio/v/unstable.svg)](https://packagist.org/packages/twilioman/twilio)
+[![License](https://poser.pugx.org/twilioman/twilio/license.svg)](https://packagist.org/packages/twilioman/twilio)
 
 ## Installation
 
