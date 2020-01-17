@@ -16,17 +16,17 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelChetanTwilio\\LaravelTwilio\\": "src/"
+            "TwilioMan\\LaravelTwilio\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelChetanTwilio\\LaravelTwilio\\Provider\\ServiceProvider"
+                "TwilioMan\\LaravelTwilio\\Provider\\ServiceProvider"
             ],
             "aliases": {
-                "Twilio": "LaravelChetanTwilio\\LaravelTwilio\\Facade\\Facade"
+                "Twilio": "TwilioMan\\LaravelTwilio\\Facade\\Facade"
             }
         }
     }

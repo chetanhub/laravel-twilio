@@ -1,5 +1,5 @@
 <?php
-namespace LaravelChetanTwilio\LaravelTwilio\Facade;
+namespace TwilioMan\LaravelTwilio\Facade;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
 

@@ -1,8 +1,8 @@
 <?php
-namespace LaravelChetanTwilio\LaravelTwilio;
+namespace TwilioMan\LaravelTwilio;
 
 use Twilio\Rest\Client;
-use LaravelChetanTwilio\LaravelTwilio\Exception\TwilioException;
+use TwilioMan\LaravelTwilio\Exception\TwilioException;
 
 class Twilio
 {
